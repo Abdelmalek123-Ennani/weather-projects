@@ -65,31 +65,3 @@ const handelInformation = ({ name , weather , main }) => {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-        // if (navigator.geolocation){
-    
-        //     navigator.geolocation.getCurrentPosition(position => {
-    
-        //         //console.log(position);
-    
-        //         long = position.coords.longitude;  // خط العرض  : longitude
-        //         lat = position.coords.latitude;    // خط الطول : latitude
-     
-        //        console.log(long);
-        //        console.log(lat)
-     
-        //     });
-    
-        // }else {
-          
-        // }
