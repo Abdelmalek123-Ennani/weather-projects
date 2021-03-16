@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+        <input 
+                type="text" 
+                name="city-name" 
+                id="cityName" 
+                placeholder="Search by your city"
+                autocomplete="off"
+         />
+        <input 
+                type="submit" 
+                value="Search" 
+         />
+    </form>
+
+    <div class="location">
+        <h1 class="location-timezone">Time Zone</h1>
+        <p><img src="" draggable="false"" alt="weather icon" /> </p>
+    </div>
+
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">34</h2>
+            <span>F</span>
+        </div>
+        <div class="temperature-description"><b>Its friggrn cold</b></div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
